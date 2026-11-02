@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Cite the supplied manuscript when using the method. This is a paper-derived reference implementation."
+title: "TAP-Merge: Trajectory-Aligned Projection-Aware Training for Reliability-Guided Multitask Model Merging"
+type: software
+authors:
+  - name: "TAP-Merge reference implementation contributors"
+version: 0.1.0
+date-released: '2026-11-01'
+preferred-citation:
+  type: unpublished
+  title: "TAP-Merge: Trajectory-Aligned Projection-Aware Training for Reliability-Guided Multitask Model Merging"
+  authors:
+    - family-names: Alsadhan
+      given-names: Nasser A.
+  year: 2026
+  notes: "User-supplied manuscript; no DOI or publication venue supplied."

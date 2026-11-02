@@ -1,0 +1,20 @@
+{
+  "synthetic": true,
+  "method": "tap",
+  "steps": 16,
+  "scored_tokens": 2048,
+  "processed_tokens": 2048,
+  "end_to_end_seconds": 0.261226163000174,
+  "end_to_end_processed_tokens_s": 7839.949783278928,
+  "profile_scope": "current invocation only; end_to_end includes prior resume invocations",
+  "peak_gpu_allocated_bytes": null,
+  "peak_gpu_reserved_bytes": null,
+  "profiled_steps": 15,
+  "profiled_processed_tokens": 1920,
+  "profile_seconds": 0.18175102199984394,
+  "iteration_ms": 12.116734799989596,
+  "throughput_processed_tokens_s": 10563.902083596804,
+  "optimizer_state_bytes": 432840,
+  "budget_bytes": 1801728,
+  "mean_time_rank": 2.375
+}

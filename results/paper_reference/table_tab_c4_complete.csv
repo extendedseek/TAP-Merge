@@ -1,0 +1,9 @@
+method,llama130m_ppl,llama350m_ppl
+Full-rank Adam,25.08,18.80
+GaLore r=256,25.36,18.95
+LDAdam r=256,22.65,17.30
+AdaRankGrad,25.22,18.91
+GaLore-SARA-Adam,24.21,19.16
+APOLLO,22.94,16.85
+SUMO,24.87,18.69
+TAP-Merge,21.04,15.62

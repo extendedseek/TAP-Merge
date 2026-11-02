@@ -1,0 +1,19 @@
+output: runs/c4_fineweb_ablation
+seeds: [42, 43, 44]
+groups: [localization, curvature, rank]
+tasks:
+  c4: data/c4_tokens
+  fineweb: data/fineweb_tokens
+training:
+  base: runs/base_gpt2
+  device: cuda
+  precision: bf16
+  sequence_length: 1024
+  microbatch: 4
+  accumulation: 16
+  train_tokens: 100000000
+  early_tokens: 10000000
+  validation_every_tokens: 10000000
+  eval_tokens: 1000000
+  optimizer:
+    lr: 0.00003

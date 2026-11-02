@@ -1,0 +1,17 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "packages": {
+    "torch": "2.5.1+cpu",
+    "numpy": "2.3.5",
+    "transformers": "4.46.3",
+    "datasets": "3.1.0",
+    "huggingface-hub": "0.36.2",
+    "datasketch": "1.10.0"
+  },
+  "device": "cpu",
+  "gpu": null,
+  "gpu_details": null,
+  "cuda": null,
+  "cudnn": null
+}

@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering\small
+\caption{Comparison of TAP-Merge with optimization baselines
+on FineWeb validation loss ($\downarrow$) using GPT-2 124M
+with rank 32 and 1,000 training updates. Results are reported
+across three learning rates.}
+\label{tab:fineweb_lr}
+\begin{tabular}{lccc}
+\toprule
+ & \multicolumn{3}{c}{Learning rate}\\
+\cmidrule(lr){2-4}
+Method & $3\times10^{-5}$ & $10^{-4}$ & $5\times10^{-4}$\\
+\midrule
+GaLore~\cite{galore2024} & 2.122 & 3.386 & 2.168\\
+MoFaSGD~\cite{mofasgd2025} & 2.192 & 3.351 & 2.109\\
+UMTAM~\cite{umtam2026} & 2.045 & 2.030 & 2.131\\
+\midrule
+\textbf{TAP-Merge} & 2.017 & 2.022 & 2.071\\ \bottomrule
+\end{tabular}
+\end{table}

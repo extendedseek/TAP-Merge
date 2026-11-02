@@ -1,0 +1,39 @@
+# Matches the general GPT-2 adaptation protocol; provision a shared base and packed data first.
+base: runs/base_gpt2
+data: data/c4_tokens
+output: runs/c4_seed42
+seed: 42
+device: cuda
+precision: bf16
+method: tap
+sequence_length: 1024
+microbatch: 4
+accumulation: 16
+train_tokens: 100000000
+early_tokens: 10000000
+validation_every_tokens: 10000000
+eval_tokens: 1000000
+clip_norm: 1.0
+warmup_profile_steps: 5
+early_residual_density: 0.01
+optimizer:
+  lr: 0.00003
+  beta1: 0.9
+  beta2: 0.999
+  rho: 0.9
+  kappa_ef: 9
+  eps: 0.00000001
+  rank: 16
+  rank_min: 8
+  rank_max: 128
+  rank_increment: 8
+  refresh_every: 10
+  check_every: 50
+  power_steps: 1
+  theta_low: 0.85
+  theta_high: 0.95
+  hysteresis: 3
+  beta_c: 0.99
+  beta_b: 0.9
+  beta_f: 0.9
+  state_budget_ratio: 0.75

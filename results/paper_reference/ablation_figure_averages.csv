@@ -1,0 +1,9 @@
+group,variant,expert_avg_ppl,merged_avg_ppl,merge_gap,provenance
+dual_stage,full,12.26,12.96,0.7,"manuscript prose, not reproduced"
+dual_stage,single_early,12.26,13.47,1.21,"manuscript prose, not reproduced"
+dual_stage,single_late,12.26,13.7,1.44,"manuscript prose, not reproduced"
+dual_stage,ties,12.26,14.34,2.08,"manuscript prose, not reproduced"
+transport,full,12.26,12.96,0.7,"manuscript prose, not reproduced"
+transport,no_transport,12.34,13.6,1.26,"manuscript prose, not reproduced"
+transport,no_error_feedback,12.31,13.47,1.16,"manuscript prose, not reproduced"
+transport,no_transport_or_feedback,12.45,14.12,1.67,"manuscript prose, not reproduced"

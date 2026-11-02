@@ -1,0 +1,257 @@
+{
+  "synthetic": true,
+  "results": [
+    {
+      "training_variant": "fixed_average_rank",
+      "merge_variant": "full",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 214.94905203193667,
+      "expert_avg_std": null,
+      "merged_avg_mean": 219.83334945477662,
+      "merged_avg_std": null,
+      "merge_gap_mean": 4.88429742283995,
+      "merge_gap_std": null
+    },
+    {
+      "training_variant": "fixed_max_rank",
+      "merge_variant": "full",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 214.94905203193667,
+      "expert_avg_std": null,
+      "merged_avg_mean": 219.83334945477662,
+      "merged_avg_std": null,
+      "merge_gap_mean": 4.88429742283995,
+      "merge_gap_std": null
+    },
+    {
+      "training_variant": "full",
+      "merge_variant": "average",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 232.72729137746347,
+      "expert_avg_std": null,
+      "merged_avg_mean": 235.37628362776945,
+      "merged_avg_std": null,
+      "merge_gap_mean": 2.64899225030598,
+      "merge_gap_std": null
+    },
+    {
+      "training_variant": "full",
+      "merge_variant": "dare_ties",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 232.72729137746347,
+      "expert_avg_std": null,
+      "merged_avg_mean": 234.14729893709895,
+      "merged_avg_std": null,
+      "merge_gap_mean": 1.4200075596354793,
+      "merge_gap_std": null
+    },
+    {
+      "training_variant": "full",
+      "merge_variant": "full",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 232.72729137746347,
+      "expert_avg_std": null,
+      "merged_avg_mean": 236.7417163244221,
+      "merged_avg_std": null,
+      "merge_gap_mean": 4.014424946958627,
+      "merge_gap_std": null
+    },
+    {
+      "training_variant": "full",
+      "merge_variant": "magnitude_only",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 232.72729137746347,
+      "expert_avg_std": null,
+      "merged_avg_mean": 236.80175951887733,
+      "merged_avg_std": null,
+      "merge_gap_mean": 4.07446814141386,
+      "merge_gap_std": null
+    },
+    {
+      "training_variant": "full",
+      "merge_variant": "no_curvature",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 232.72729137746347,
+      "expert_avg_std": null,
+      "merged_avg_mean": 236.94845148868234,
+      "merged_avg_std": null,
+      "merge_gap_mean": 4.221160111218865,
+      "merge_gap_std": null
+    },
+    {
+      "training_variant": "full",
+      "merge_variant": "no_sign_attenuation",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 232.72729137746347,
+      "expert_avg_std": null,
+      "merged_avg_mean": 236.73561561374845,
+      "merged_avg_std": null,
+      "merge_gap_mean": 4.008324236284977,
+      "merge_gap_std": null
+    },
+    {
+      "training_variant": "full",
+      "merge_variant": "no_trajectory",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 232.72729137746347,
+      "expert_avg_std": null,
+      "merged_avg_mean": 235.66682348227096,
+      "merged_avg_std": null,
+      "merge_gap_mean": 2.9395321048074834,
+      "merge_gap_std": null
+    },
+    {
+      "training_variant": "full",
+      "merge_variant": "random_masking",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 232.72729137746347,
+      "expert_avg_std": null,
+      "merged_avg_mean": 238.78332358870398,
+      "merged_avg_std": null,
+      "merge_gap_mean": 6.056032211240506,
+      "merge_gap_std": null
+    },
+    {
+      "training_variant": "full",
+      "merge_variant": "single_early",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 232.72729137746347,
+      "expert_avg_std": null,
+      "merged_avg_mean": 234.15341902749594,
+      "merged_avg_std": null,
+      "merge_gap_mean": 1.4261276500324698,
+      "merge_gap_std": null
+    },
+    {
+      "training_variant": "full",
+      "merge_variant": "single_late",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 232.72729137746347,
+      "expert_avg_std": null,
+      "merged_avg_mean": 235.7387937060803,
+      "merged_avg_std": null,
+      "merge_gap_mean": 3.011502328616814,
+      "merge_gap_std": null
+    },
+    {
+      "training_variant": "full",
+      "merge_variant": "ties",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 232.72729137746347,
+      "expert_avg_std": null,
+      "merged_avg_mean": 234.85916245399733,
+      "merged_avg_std": null,
+      "merge_gap_mean": 2.131871076533855,
+      "merge_gap_std": null
+    },
+    {
+      "training_variant": "full",
+      "merge_variant": "uniform_budgets",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 232.72729137746347,
+      "expert_avg_std": null,
+      "merged_avg_mean": 236.95441160698573,
+      "merged_avg_std": null,
+      "merge_gap_mean": 4.2271202295222565,
+      "merge_gap_std": null
+    },
+    {
+      "training_variant": "no_error_feedback",
+      "merge_variant": "full",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 236.00881583993745,
+      "expert_avg_std": null,
+      "merged_avg_mean": 237.7658440285058,
+      "merged_avg_std": null,
+      "merge_gap_mean": 1.7570281885683414,
+      "merge_gap_std": null
+    },
+    {
+      "training_variant": "no_transport",
+      "merge_variant": "full",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 232.94926599487573,
+      "expert_avg_std": null,
+      "merged_avg_mean": 236.7644305590303,
+      "merged_avg_std": null,
+      "merge_gap_mean": 3.8151645641545713,
+      "merge_gap_std": null
+    },
+    {
+      "training_variant": "no_transport_or_feedback",
+      "merge_variant": "full",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 236.17577972631364,
+      "expert_avg_std": null,
+      "merged_avg_mean": 237.86063498611543,
+      "merged_avg_std": null,
+      "merge_gap_mean": 1.6848552598017932,
+      "merge_gap_std": null
+    },
+    {
+      "training_variant": "static_basis",
+      "merge_variant": "full",
+      "seeds": [
+        42
+      ],
+      "n": 1,
+      "expert_avg_mean": 211.6563215140672,
+      "expert_avg_std": null,
+      "merged_avg_mean": 217.02010360719248,
+      "merged_avg_std": null,
+      "merge_gap_mean": 5.36378209312528,
+      "merge_gap_std": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+output: runs/slimpajama_ablation
+seeds: [42, 43, 44]
+groups: [dual_stage, transport]
+tasks:
+  github: data/github_tokens
+  arxiv: data/arxiv_tokens
+  wikipedia: data/wikipedia_tokens
+  stackexchange: data/stackexchange_tokens
+training:
+  base: runs/base_gpt2
+  device: cuda
+  precision: bf16
+  sequence_length: 1024
+  microbatch: 4
+  accumulation: 16
+  train_tokens: 100000000
+  early_tokens: 10000000
+  validation_every_tokens: 10000000
+  eval_tokens: 1000000
+  optimizer:
+    lr: 0.00003
+baseline:
+  density: 0.2
+  drop_rate: 0.5
+  scale: 1.0

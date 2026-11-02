@@ -1,0 +1,2 @@
+# Install the appropriate PyTorch CUDA wheel first on GPU systems.
+-e .[hf,dev,plots]

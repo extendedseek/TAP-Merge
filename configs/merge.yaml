@@ -1,0 +1,16 @@
+eps: 0.00000001
+lambda_rc: 0.5
+lambda_ld: 0.5
+c_max: 1.0
+gamma_q: 0.3333333333333333
+gamma_b: 0.3333333333333333
+gamma_f: 0.3333333333333333
+early_min: 0.5
+early_max: 0.8
+late_min: 0.05
+late_max: 0.2
+kappa_early: 1
+kappa_late: 2
+lambda_early: 0.01
+lambda_late: 0.1
+alpha_early: 1.0

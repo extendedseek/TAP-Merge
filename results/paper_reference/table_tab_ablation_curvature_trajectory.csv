@@ -1,0 +1,6 @@
+variant,c4_ppl,fineweb_ppl,average_ppl,merge_gap,delta_avg
+Independent Experts (no merge),16.42,15.78,16.10,,
+w/o Curvature Proxies,17.74,16.92,17.33,+1.23,+0.56
+w/o Trajectory Indicators,17.22,16.98,17.10,+1.00,+0.33
+Random Masking,19.39,16.48,17.94,+1.84,+1.17
+Full TAP-Merge,17.18,16.35,16.77,+0.67,

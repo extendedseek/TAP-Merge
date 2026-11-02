@@ -1,0 +1,29 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Ablation of curvature proxies and trajectory quality indicators using C4 and FineWeb with GPT-2 124M. The experts are trained on C4 and FineWeb \texttt{sample-10BT}. Lower perplexity is better. Average is the mean of the C4 and FineWeb perplexities. Merge Gap is the difference between the merged average and the expert average. $\Delta_{\mathrm{avg}}$ is the increase in average perplexity relative to Full TAP-Merge.}
+\label{tab:ablation_curvature_trajectory}
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Merging Variant}
+& \textbf{C4}
+& \textbf{FineWeb}
+& \textbf{Average}
+& \textbf{Merge Gap}
+& $\Delta_{\mathrm{avg}}$ \\
+\midrule
+Independent Experts (no merge)
+& 16.42 & 15.78 & 16.10 & --- & --- \\
+\midrule
+w/o Curvature Proxies
+& 17.74 & 16.92 & 17.33 & $+1.23$ & $+0.56$ \\
+w/o Trajectory Indicators
+& 17.22 & 16.98 & 17.10 & $+1.00$ & $+0.33$ \\
+Random Masking
+& 19.39 & 16.48 & 17.94 & $+1.84$ & $+1.17$ \\
+\midrule
+Full TAP-Merge
+& 17.18 & 16.35 & 16.77 & $+0.67$ & --- \\
+\bottomrule
+\end{tabular}
+\end{table*}

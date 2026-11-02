@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering\small
+\caption{Comparison of TAP-Merge with optimization
+baselines on C4 using estimated parameter-plus-state
+memory (G, $\downarrow$) for LLaMA 130M and 350M
+models. Lower values indicate reduced
+estimated memory requirements.}
+\label{tab:c4_memory}
+\begin{tabular}{lcc}
+\toprule
+Method & LLaMA 130M & LLaMA 350M\\
+\midrule
+Full-rank Adam~\cite{galore2024} & 0.76 & 2.06\\
+GaLore~\cite{galore2024} & 0.52 & 1.22\\
+AdaRankGrad~\cite{adarankgrad2025} & 0.497 & 1.106\\
+APOLLO~\cite{apollo2025} & 0.52 & 1.22\\
+SUMO~\cite{sumo2025} & 0.51 & 1.16\\
+\midrule
+\textbf{TAP-Merge} & 0.536 & 1.248\\ \bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,29 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Ablation of reliability-conditioned localization and sign-conflict attenuation using C4 and FineWeb with GPT-2 124M. The experts are trained on C4 and FineWeb \texttt{sample-10BT}. Lower perplexity is better. Average is the mean of the C4 and FineWeb perplexities. Merge Gap is the difference between the merged average and the expert average. $\Delta_{\mathrm{avg}}$ is the increase in average perplexity relative to Full TAP-Merge.}
+\label{tab:ablation_reliability_localization}
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Merging Variant}
+& \textbf{C4}
+& \textbf{FineWeb}
+& \textbf{Average}
+& \textbf{Merge Gap}
+& $\Delta_{\mathrm{avg}}$ \\
+\midrule
+Independent Experts (no merge)
+& 16.42 & 15.78 & 16.10 & --- & --- \\
+\midrule
+Uniform Sparsity Budgets
+& 17.51 & 16.61 & 17.06 & $+0.96$ & $+0.29$ \\
+No Sign-Attenuation
+& 17.64 & 16.72 & 17.18 & $+1.08$ & $+0.41$ \\
+Magnitude-Only Masking
+& 17.83 & 16.81 & 17.32 & $+1.22$ & $+0.55$ \\
+\midrule
+Full TAP-Merge
+& 17.18 & 16.35 & 16.77 & $+0.67$ & --- \\
+\bottomrule
+\end{tabular}
+\end{table*}

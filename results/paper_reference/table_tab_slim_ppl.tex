@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering\small
+\caption{Comparison of TAP-Merge with optimization
+baselines on SlimPajama validation perplexity
+($\downarrow$) using LLaMA 60M and 130M models.
+Lower values indicate better performance.}
+\label{tab:slim_ppl}
+\begin{tabular}{lcc}
+\toprule
+Method & LLaMA 60M & LLaMA 130M\\
+\midrule
+Full-rank Adam & 27.79 & 25.00\\
+GaLore-Adam & 31.76 & 25.80\\
+GaLore-SARA-Adam & 30.79 & 25.23\\
+\midrule
+\textbf{TAP-Merge} & 27.72 & 24.87\\ \bottomrule
+\end{tabular}
+\end{table}

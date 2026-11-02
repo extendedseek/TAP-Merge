@@ -1,0 +1,8 @@
+python -m pytest -q
+46 passed in 5.52s
+
+python -m ruff check src tests scripts
+All checks passed!
+
+Synthetic integration: 18 evaluated comparisons, 7 training configurations, 12 merge configurations.
+Hugging Face local integration and exact update-level resume: passed.

@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering\small
+\caption{Comparison of TAP-Merge with SoTA optimization methods on C4 validation perplexity ($\downarrow$) using LLaMA 130M and 350M models. Lower values indicate better performance.}
+\label{tab:c4_complete}
+\begin{tabular}{lcc}
+\toprule
+Method & LLaMA 130M & LLaMA 350M\\
+\midrule
+Full-rank Adam~\cite{galore2024} & 25.08 & 18.80\\
+GaLore, $r=256$~\cite{galore2024} & 25.36 & 18.95\\
+LDAdam, $r=256$~\cite{ldadam2025} & 22.65 & 17.30\\
+AdaRankGrad~\cite{adarankgrad2025} & 25.22 & 18.91\\
+GaLore-SARA-Adam~\cite{sara2025} & 24.21 & 19.16\\
+APOLLO~\cite{apollo2025} & 22.94 & 16.85\\
+SUMO~\cite{sumo2025} & 24.87 & 18.69\\
+\midrule
+\textbf{TAP-Merge} & 21.04 & 15.62\\ \bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,6 @@
+variant,c4_ppl,fineweb_ppl,average_ppl,merge_gap,delta_avg
+Independent Experts (no merge),16.42,15.78,16.10,,
+Uniform Sparsity Budgets,17.51,16.61,17.06,+0.96,+0.29
+No Sign-Attenuation,17.64,16.72,17.18,+1.08,+0.41
+Magnitude-Only Masking,17.83,16.81,17.32,+1.22,+0.55
+Full TAP-Merge,17.18,16.35,16.77,+0.67,

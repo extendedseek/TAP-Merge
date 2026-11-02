@@ -1,0 +1,31 @@
+# Descriptive benchmark contracts, not invented reproductions of external studies.
+general_adaptation:
+  model: GPT-2 124M or 355M, shared pretrained base
+  train_tokens: 100000000
+  sequence_length: 1024
+  effective_batch_sequences: 64
+  executable: configs/train_gpt2.yaml
+  exact_reproduction: false
+c4_comparison:
+  models: [LLaMA-family 130M, LLaMA-family 350M]
+  metric: perplexity
+  missing: [exact architecture JSON, shared base revision, tokenizer revision, source benchmark schedules]
+fineweb_nanogpt:
+  model: NanoGPT pretraining configuration
+  train_tokens_approx: 730000000
+  tap_rank: 64
+  missing: [architecture, tokenizer, initialization, batch, optimizer schedule, validation loss convention]
+fineweb_lr:
+  model: GPT-2 124M
+  rank: 32
+  steps: 1000
+  learning_rates: [0.00003, 0.0001, 0.0005]
+  missing: [source-specific batch, split, exact base revision, full validation convention]
+slimpajama_small:
+  models: [LLaMA 60M, LLaMA 130M]
+  missing: [architectures, initial checkpoints, tokenizer, complete pretraining schedule]
+slimpajama_large:
+  models: [Transformer 1.1B, Transformer 5.4B]
+  train_tokens: 50000000000
+  metric: steps_to_Adam_final_loss_reduction_percent
+  missing: [architecture and schedules from NorMuon, Adam reference curves, complete training logs]
