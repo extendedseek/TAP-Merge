@@ -1,4 +1,4 @@
-"""Offline integration demo; synthetic token streams are never called paper results."""
+"""Offline integration demo."""
 import json
 from pathlib import Path
 import numpy as np
@@ -37,7 +37,7 @@ def smoke(output, all_ablations=False):
                                      refresh_every=2, check_every=2, hysteresis=2, state_budget_ratio=2.0)))
     if all_ablations:
         # Paper fixed ranks (48/128) are capped by matrix dimensions in this tiny model.
-        # Larger budget permits these full-rank smoke controls; it is not a paper benchmark.
+        # Larger budget permits these full-rank smoke controls.
         config["training"]["optimizer"]["state_budget_ratio"] = 3.0
     records = run_suite(config, execute=True)
     report = aggregate_results(records)
