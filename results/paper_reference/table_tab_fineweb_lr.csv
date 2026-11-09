@@ -1,5 +1,0 @@
-method,loss_lr_3e-5,loss_lr_1e-4,loss_lr_5e-4
-GaLore,2.122,3.386,2.168
-MoFaSGD,2.192,3.351,2.109
-UMTAM,2.045,2.030,2.131
-TAP-Merge,2.017,2.022,2.071

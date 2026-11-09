@@ -1,4 +1,0 @@
-method,peak_gpu_memory_GB,iteration_ms,throughput_tokens_s
-AdamW,3.33,294.2,3481
-UMTAM,4.34,320.9,3191
-TAP-Merge,3.58,300.5,3408

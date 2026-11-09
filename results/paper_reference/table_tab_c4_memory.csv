@@ -1,7 +1,0 @@
-method,llama130m_estimated_parameter_plus_state_G,llama350m_estimated_parameter_plus_state_G
-Full-rank Adam,0.76,2.06
-GaLore,0.52,1.22
-AdaRankGrad,0.497,1.106
-APOLLO,0.52,1.22
-SUMO,0.51,1.16
-TAP-Merge,0.536,1.248

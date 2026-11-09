@@ -1,5 +1,0 @@
-method,llama60m_ppl,llama130m_ppl
-Full-rank Adam,27.79,25.00
-GaLore-Adam,31.76,25.80
-GaLore-SARA-Adam,30.79,25.23
-TAP-Merge,27.72,24.87
