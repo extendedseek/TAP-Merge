@@ -38,7 +38,6 @@ python -m tap_merge train --config configs/train_gpt2.yaml
 
 `fetch` exports a bounded selection; increase the document cap to provide at
 least 100,000,001 raw train tokens and sufficiently large heldout streams. 
-See [data preparation](docs/data.md).
 
 Learning-rate tuning uses development NLL only:
 
